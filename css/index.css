@@ -1,0 +1,146 @@
+/* GLOBALS */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%;
+  padding-top: 150px; }
+
+a {
+  text-decoration: none; }
+
+li {
+  text-decoration: none; }
+
+h1 {
+  font-size: 5em; }
+
+h2 {
+  font-size: 3em; }
+
+/* PARTIALS */
+body {
+  background: #188055;
+  background: linear-gradient(0deg, #188055 0%, #e7cc68 67%); }
+
+header {
+  padding-top: 10px;
+  width: 100%;
+  left: 0;
+  top: 0;
+  position: fixed;
+  background-color: #e7cc68; }
+
+@keyframes fc_esculturas {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+.logo {
+  text-align: center; }
+  .logo img {
+    display: block;
+    width: 80%;
+    height: auto;
+    margin: auto;
+    animation-name: fc_esculturas;
+    animation-duration: 5s; }
+
+.nav {
+  justify-content: center;
+  font-size: 1.5rem; }
+
+footer {
+  padding: 2rem;
+  display: grid;
+  grid-template-rows: 0.5fr;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between; }
+  footer .footer-index {
+    position: absolute;
+    bottom: 0px; }
+
+.paragraph {
+  text-align: center;
+  color: black;
+  font-size: 1.5em;
+  font-weight: bold; }
+
+.redes {
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  font-size: 1.5em; }
+
+/* PAGES */
+.position {
+  width: 50%;
+  margin: 50px auto 0; }
+
+#razas {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  width: 90%;
+  margin: 5rem auto; }
+  #razas .razas__sabiasQue {
+    display: flex;
+    flex-direction: column;
+    grid-column: 1 / 3;
+    gap: 1rem; }
+    #razas .razas__sabiasQue ol {
+      margin: 2rem; }
+    #razas .razas__sabiasQue .razas__sabiasQue--rojo {
+      color: red; }
+    #razas .razas__sabiasQue .razas__sabiasQue--align {
+      text-align: center; }
+    #razas .razas__sabiasQue .razas__sabiasQue--alineacion1 {
+      text-align: justify;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 400;
+      padding: 1.8rem;
+      font-size: 1.8em; }
+  #razas .boceto1 {
+    display: flex;
+    flex-direction: row;
+    grid-column: 1 / 3;
+    justify-content: space-around;
+    padding: 2rem; }
+    #razas .boceto1 img {
+      height: 200px; }
+
+.clasificacionCanina {
+  margin: 5rem; }
+  .clasificacionCanina .clasificacionCanina__razas--fci {
+    font-size: 1.8em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 2rem; }
+  .clasificacionCanina .clasificacionCanina__lista {
+    font-size: 1.8em;
+    font-family: cursive;
+    font-weight: bold;
+    margin: 3rem;
+    padding-left: 3rem; }
+
+.picture {
+  padding: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center; }
+  .picture .grupo {
+    height: 300px;
+    margin: 40px; }
+    .picture .grupo img {
+      width: 250px;
+      height: 250px; }
+
+.centrar {
+  font-size: 2em;
+  line-height: 3rem;
+  padding: 15rem; }

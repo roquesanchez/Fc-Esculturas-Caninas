@@ -1,0 +1,15 @@
+.picture {
+  padding: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  .grupo {
+    height: 300px;
+    margin: 40px;
+    img {
+      @include tamaño(250px, 250px);
+    }
+  }
+}

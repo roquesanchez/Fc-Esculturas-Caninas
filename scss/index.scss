@@ -1,0 +1,20 @@
+/* GLOBALS */
+@import "./utils/mixins";
+@import "./partials/variables";
+@import "./utils/normalize";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap");
+
+/* PARTIALS */
+@import "./partials/body";
+@import "./partials/header";
+@import "./partials/footer";
+
+/* PAGES */
+@import "./pages/inicio";
+@import "./pages/historia";
+@import "./pages/razas";
+@import "./pages/galeria";
+@import "./pages/contacto";
+
+
+

@@ -1,0 +1,27 @@
+footer {
+  padding: 2rem;
+  display: grid;
+  grid-template-rows: 0.5fr;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+  .footer-index {
+    position: absolute;
+    bottom: 0px;
+  }
+}
+
+.paragraph {
+  text-align: center;
+  color: black;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.redes {
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+
